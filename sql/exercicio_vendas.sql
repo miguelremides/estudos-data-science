@@ -21,3 +21,6 @@ FROM Vendedores v
 JOIN Vendas s ON v.id_vendedor = s.id_vendedor
 GROUP BY v.nome
 ORDER BY total_vendas DESC;
+
+-- Exercício de Agregação e Join
+-- Objetivo: Identificar o vendedor com maior volume financeiro.
